@@ -1,7 +1,7 @@
 Searching
 =========
 
-The primary measn for searching the Data Catalogue is through the search bar at the top.
+The primary means for searching the Data Catalogue is through the search bar at the top.
 
 Reset
 -----
