@@ -37,6 +37,7 @@ pipeline{
         }
         stage('Build Nginx Container'){
             steps{
+                sh "gcloud auth configure-docker"
                 sh "docker build -t ${image_tag} ."
                 sh "docker push ${image_tag}"
                 sh "gcloud container images add-tag ${image_tag} ${docker_repo}/${product_name}-${module_name}:${env.BRANCH_NAME}-latest"
