@@ -21,7 +21,7 @@ pipeline{
             agent {
                 docker {
                     image 'ddidier/sphinx-doc'
-                    args '-it --entrypoint=/bin/bash'
+                    args '-it -e USER_ID=9001 --entrypoint=/bin/bash'
                     reuseNode true
                 }
             }
