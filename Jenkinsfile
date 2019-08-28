@@ -14,9 +14,9 @@ limitations under the License.
 */
 pipeline{
     environment {
-        product_name = cdc
-        module_name = userguide
-        image_tag = image_tag = "${docker_repo}/${product_name}-${module_name}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
+        product_name = 'cdc'
+        module_name = 'userguide'
+        image_tag = "${docker_repo}/${product_name}-${module_name}:${env.BRANCH_NAME}-${env.BUILD_NUMBER}"
     }
 
     agent any
