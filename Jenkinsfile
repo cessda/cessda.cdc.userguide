@@ -19,8 +19,10 @@ pipeline{
     stages {
         stage('Build Documentation') {
             agent {
-                image 'ddidier/sphinx-doc'
-                reuseNode true
+                docker {
+                    image 'ddidier/sphinx-doc'
+                    reuseNode true
+                }
             }
             steps{
                 sh 'make html'
