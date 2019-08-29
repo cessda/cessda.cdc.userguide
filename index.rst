@@ -5,8 +5,6 @@ CESSDA Data Catalogue User Guide
 
 This is the user guide for the `CESSDA Data Catalogue <https://datacatalogue.cessda.eu/>`__.
 
-See :doc:`searching <searching>` to get started and the :doc:`known issues <known_issues>`.
-
 .. only:: html
 
    .. image:: images/cc-by.*
