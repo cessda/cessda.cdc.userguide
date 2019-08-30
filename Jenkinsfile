@@ -12,7 +12,7 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-pipeline{
+pipeline {
     options {
         buildDiscarder logRotator(artifactNumToKeepStr: '5', numToKeepStr: '10')
     }
@@ -38,9 +38,14 @@ pipeline{
             steps{
                 sh 'make html'
             }
+            post {
+                success {
+                    archiveArtifacts '_build/**'
+                }
+            }
         }
-        stage('Build Nginx Container'){
-            steps{
+        stage('Build Nginx Container') {
+            steps {
                 sh "gcloud auth configure-docker"
                 sh "docker build -t ${image_tag} ."
                 sh "docker push ${image_tag}"
@@ -48,8 +53,8 @@ pipeline{
             }
             when { branch 'master' }
         }
-        stage('Deploy Nginx Container'){
-            steps{
+        stage('Deploy Nginx Container') {
+            steps {
                 build job: 'cessda.cdc.deploy/master', parameters: [string(name: 'userguide_image_tag', value: "${image_tag}"), string(name: 'module', value: 'userguide')], wait: false
             }
             when { branch 'master' }

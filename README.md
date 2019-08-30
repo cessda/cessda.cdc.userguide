@@ -6,7 +6,7 @@ This repository contains the User Guide for CDC.
 
 Assuming you have python installed, create a virtual env
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -14,8 +14,7 @@ pip install -r requirements.txt
 
 With activated venv, i.e. the source command above, compile with
 
-```
+```bash
 make clean
 make html
 ```
-
