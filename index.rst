@@ -5,6 +5,13 @@ CESSDA Data Catalogue User Guide
 
 This is the user guide for the `CESSDA Data Catalogue <https://datacatalogue.cessda.eu/>`__.
 
+
+* :doc:`Introduction <introduction>`
+* :doc:`Basic Search <basic-search>`
+* :doc:`Filtered Search <filtered-search>`
+* :doc:`Advanced Search <advanced-search>`
+
+
 .. only:: html
 
    .. image:: images/cc-by.*
@@ -19,6 +26,9 @@ This work is licensed under `Creative Commons Attribution 4.0 International <htt
    :maxdepth: 2
    :caption: Contents:
 
-   searching
+   introduction
+   basic-search
+   filtered-search
+   advanced-search
    known_issues
 
