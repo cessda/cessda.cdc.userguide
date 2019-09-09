@@ -6,7 +6,7 @@ The number of results is presented in the upper left, and can be sorted by relev
 
 The interface language options are provided in the far upper right with a drop down list.
 
-A simple search on the keyword “environment” in English returns 2578 results (shown in upper left).
+A simple search on the keyword “environment” in English returns 2578 results [#f1]_ (shown in upper left).
 
 .. image:: images/basic-search.png
 
@@ -16,4 +16,5 @@ such as Methodology, Access information, Topics, and Keywords and the persistent
 The “Clear search” button clears only the text in the search box.
 It does not clear any existing filters applied in the left column, see :doc:`Filtered Search <filtered-search>`.
 
+.. [#f1] At the time of writing, the actual number of results may change.
 
