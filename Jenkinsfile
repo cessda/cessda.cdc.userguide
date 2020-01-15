@@ -55,7 +55,7 @@ pipeline {
         }
         stage('Deploy Nginx Container') {
             steps {
-                build job: 'cessda.cdc.deploy/master', parameters: [string(name: 'userguide_image_tag', value: "${image_tag}"), string(name: 'module', value: 'userguide')], wait: false
+                build job: 'cessda.cdc.deploy/master', parameters: [string(name: 'userguide_image_tag', value: "${env.BRANCH_NAME}-${env.BUILD_NUMBER}")], wait: false
             }
             when { branch 'master' }
         }
