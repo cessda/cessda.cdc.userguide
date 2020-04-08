@@ -12,6 +12,13 @@ This is the user guide for the `CESSDA Data Catalogue <https://datacatalogue.ces
 * :doc:`Advanced Search <advanced-search>`
 
 
+Quick Video Introduction
+------------------------
+
+.. image:: images/user-video.png
+   :target: https://twitter.com/CESSDA_Data/status/1244629200918601730
+   :width: 600
+
 .. only:: html
 
    .. image:: images/cc-by.*
