@@ -28,9 +28,11 @@ pipeline {
 	stages {
 		// Compiles documentation and outputs it to ./_build
 		stage('Build Documentation') {
-			dockerfile {
-				filename 'sphinx.ockerfile'
-				reuseNode true
+			agent {
+				dockerfile {
+					filename 'sphinx.ockerfile'
+					reuseNode true
+				}
 			}
 			steps{
 				sh 'make html'
