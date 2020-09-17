@@ -28,15 +28,8 @@ pipeline {
     stages {
         // Compiles documentation and outputs it to ./_build
         stage('Build Documentation') {
-            agent {
-                docker {
-                    image 'ddidier/sphinx-doc'
-                    args '--entrypoint=""' // Unset the image entrypoint, the build will fail without this
-                    reuseNode true
-                }
-            }
             steps{
-                sh 'make html'
+                sh 'docker run --rm -i -u $(id -u) -v "$(pwd)":/docs sphinxdoc/sphinx make html'
             }
 		}
         stage('Build Profiles') {
