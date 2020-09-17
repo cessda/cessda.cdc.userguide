@@ -30,7 +30,7 @@ pipeline {
 		stage('Build Documentation') {
 			agent {
 				dockerfile {
-					filename 'sphinx.ockerfile'
+					filename 'sphinx.dockerfile'
 					reuseNode true
 				}
 			}
