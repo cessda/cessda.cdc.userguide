@@ -14,7 +14,7 @@ limitations under the License.
 */
 pipeline {
 	options {
-		buildDiscarder logRotator(artifactNumToKeepStr: '5', numToKeepStr: '10')
+		buildDiscarder logRotator(numToKeepStr: '20')
 	}
 
 	environment {
@@ -45,7 +45,7 @@ pipeline {
 			}
 			post {
 				success {
-					archiveArtifacts '_build/**'
+					publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '_build/html/', reportFiles: 'index.html', reportName: 'CDC Documentation'])
 				}
 			}
 		}
