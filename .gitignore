@@ -1,2 +1,9 @@
-_build
-venv/
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+.vscode
+Gemfile.lock
+vendor
+.scannerwork/
+.DS_Store

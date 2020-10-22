@@ -1,5 +1,10 @@
-Introduction
-============
+---
+title: Introduction
+layout: page
+nav_order: 001
+---
+
+# Introduction
 
 The CESSDA Data Catalogue (CDC) contains descriptions (metadata) of the more than 18,000 data collections
 held by CESSDA’s Service Providers (SP), representing 20 European countries.

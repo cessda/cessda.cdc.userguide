@@ -1,5 +1,10 @@
-Advanced Search
-===============
+---
+title: Advanced Search
+layout: page
+nav_order: 004
+---
+
+# Advanced Search
 
 To support more complex searches, the CDC provides an Advanced Search option.
 A number of Boolean and other search operators are enabled.
@@ -13,12 +18,11 @@ A number of Boolean and other search operators are enabled.
 - `~N` after a word signifies edit **distance** (fuzziness)
 - `~N` after a phrase signifies **slop** amount
 
-
-Example
-^^^^^^^
+## Example
 
 The example below searches for ``CONCEPTUAL + METHODOL* + -Sleep + -psycho*``
-and includes all hits for Conceptual, any word starting with methodol, but excludes records containing Sleep or anything starting with psycho.
+and includes all hits for Conceptual, any word starting with methodol,
+but excludes records containing Sleep or anything starting with psycho.
 
-.. image:: images/advanced-search.png
+![Advanced search](images/advanced-search.png "Advanced search")
 

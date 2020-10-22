@@ -2,19 +2,23 @@
 
 This repository contains the User Guide for CDC.
 
-## Getting started
+## Technical Implementation
 
-Assuming you have python installed, create a virtual env
+The documentation is written in markdown files and compiled to html using [Jekyll](https://jekyllrb.com)
+with the [Just the docs](https://github.com/pmarsceill/just-the-docs) theme.
 
+To get started locally, make sure to [have Ruby installed](https://jekyllrb.com/docs/installation/), then run
 ```bash
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+gem install jekyll bundler
+bundle install
+bundle exec jekyll serve
 ```
 
-With activated venv, i.e. the source command above, compile with
+### Menu structure
 
-```bash
-make clean
-make html
-```
+The page order and navigation structure is defined manually using
+the [theme's options](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/).
+
+
+
+
