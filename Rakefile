@@ -3,7 +3,7 @@ require 'html-proofer'
 task default: %w[lint]
 
 task :lint do
-  exec 'find . -name "*.md" | grep -v "^.\/vendor\/" | xargs mdl'
+  exec 'find . -name "*.md" | grep -v "^.\/vendor\/" | grep -v "^.\/cessda.metadata.profiles\/" | xargs mdl'
 end
 
 task :htmlproofer do
