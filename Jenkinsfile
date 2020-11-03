@@ -53,11 +53,6 @@ pipeline {
                 sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 1.2.2\\ PROFILE/cdc_122_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_122_profile.html'
                 sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/cdc25_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_25_profile.html'
 			}
-			post {
-				success {
-					publishHTML([allowMissing: false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: '_build/html/', reportFiles: 'index.html', reportName: 'CDC Documentation'])
-				}
-			}
 		}
 		stage('Build Nginx Container') {
 			steps {
