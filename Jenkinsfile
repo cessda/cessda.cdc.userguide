@@ -43,7 +43,7 @@ pipeline {
 				stage('Build Deployable Documentation') {
 					steps {
 						sh "jekyll build"
-						sh "bundle exec rake htmlproofer"
+						// sh "bundle exec rake htmlproofer"
 					}
 				}
 			}
