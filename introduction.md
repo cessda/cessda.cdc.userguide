@@ -14,5 +14,3 @@ This User Guide presents an overview of how to use the CDC for searching, includ
 The CDC is a portal for discovering data.
 Detailed descriptions of data collections are provided.
 For information and procedures to access data, there is a link in the lower right of each entry to the website of data provider [“go to study”].
-
-

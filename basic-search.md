@@ -21,5 +21,3 @@ such as Methodology, Access information, Topics, and Keywords and the persistent
 
 The “Clear search” button clears only the text in the search box.
 It does not clear any existing filters applied in the left column, see [Filtered Search]({% link filtered-search.md %}).
-
-

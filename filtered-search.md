@@ -25,4 +25,3 @@ This opens a new window, enabling easy removal of any existing filters.
 
 The “Reset filters” button clears all the filters in the left column applied to the current search.
 It does not clear the text search.
-

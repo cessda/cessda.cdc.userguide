@@ -26,22 +26,32 @@ pipeline {
 	agent any
 
 	stages {
-		// Compiles documentation and outputs it to ./_build
+		// Compiles documentation
 		stage('Build Documentation') {
 			agent {
 				dockerfile {
-					filename 'jekyll.dockerfile'
+					filename 'jekyll.Dockerfile'
 					reuseNode true
 				}
 			}
-			steps{
-				sh 'mkdir -p _site'
+			stages {
+				stage('Lint Documentation') {
+					steps {
+						sh "bundle exec rake lint"
+					}
+				}
+				stage('Build Deployable Documentation') {
+					steps {
+						sh "jekyll build"
+						sh "bundle exec rake htmlproofer"
+					}
+				}
 			}
 		}
 		stage('Build Profiles') {
 			steps {
-				sh 'docker run --rm -i -u $(id -u) -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 1.2.2\\ PROFILE/cdc_122_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_122_profile.html'
-				sh 'docker run --rm -i -u $(id -u) -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/cdc25_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_25_profile.html'
+                sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 1.2.2\\ PROFILE/cdc_122_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_122_profile.html'
+                sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/cdc25_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_25_profile.html'
 			}
 			post {
 				success {
@@ -51,10 +61,15 @@ pipeline {
 		}
 		stage('Build Nginx Container') {
 			steps {
+				sh "docker build -t ${imageTag} -f nginx.Dockerfile ."
+			}
+			when { branch 'master' }
+		}
+		stage('Push Docker Container') {
+			steps {
 				sh "gcloud auth configure-docker"
-				sh "docker build -t ${image_tag} ."
-				sh "docker push ${image_tag}"
-				sh "gcloud container images add-tag ${image_tag} ${docker_repo}/${product_name}-${module_name}:${env.BRANCH_NAME}-latest"
+				sh "docker push ${imageTag}"
+				sh "gcloud container images add-tag ${imageTag} ${docker_repo}/${productName}-${componentName}:${env.BRANCH_NAME}-latest"
 			}
 			when { branch 'master' }
 		}

@@ -19,6 +19,3 @@ This is the user guide for the [CESSDA Data Catalogue](https://datacatalogue.ces
 
 ![CC-BY-4.0](images/cc-by.svg "CC-BY-4.0")
 This work is licensed under [Creative Commons Attribution 4.0 International](https://creativecommons.org/licenses/by/4.0/).
-
-
-

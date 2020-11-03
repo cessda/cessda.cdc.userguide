@@ -25,4 +25,3 @@ and includes all hits for Conceptual, any word starting with methodol,
 but excludes records containing Sleep or anything starting with psycho.
 
 ![Advanced search](images/advanced-search.png "Advanced search")
-
