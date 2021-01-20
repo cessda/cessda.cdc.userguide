@@ -1,27 +1,32 @@
 ---
-title: Filtered Search
-layout: page
-nav_order: 003
+title: Filtered search
+parent: Home
+has_children: false
+is_hidden: false
+nav_order: 030
 ---
 
-# Filtered Search
+# {{ page.title }}
 
-There are five filters in the left margin available to refine search results: topic, collection years, country, publisher, and language.
-These can be used with or without terms in the Search box.
-Clicking in each box produces a list of available choices, and more information about the filter can be found by using the question mark.
-For example, “Country” refers to the country where the study took place.
+The system allows filtering by topic, date of data collection, country in which the study place,
+and the institution providing the study metadata.
+These institutions are mainly research data archives.
+Note the limitations: the country and date filters include only those studies
+where the metadata provided the date and country information in standardised, machine-actionable format.
+
+Using filters increases the precision of your search.
+Try, for example, entering into the search box: *travel norway*. You get a lot of results.
+If you enter into the search box the word *travel* and choose Norway from the country filter,
+you get fewer but more relevant results.
+If you are interested only in data collected over, for instance, the last five years,
+use the date of collection filter.
 
 ![Filtered search](images/filtered-search.png "Filtered search")
 
-## Example
+If you use more than one filter, the default between them is AND, so both have to apply in the results.
 
-A search on 1980-2019, for data about Finland, held at the Finnish Social Science Data Archive, in English,
-and with the keyword “environment”, returns three data collections.
+To keep the filters selected active,
+use the ‘Back’ button or the arrow on top left to navigate back to the search page.
+If you click on the data catalogue logo instead, all selections will disappear.
 
-![Filtered search example](images/filtered-search-example.png "Filtered search example")
-
-A button for “Filter summary” appears if filters are being applied.
-This opens a new window, enabling easy removal of any existing filters.
-
-The “Reset filters” button clears all the filters in the left column applied to the current search.
-It does not clear the text search.
+Use ‘Reset filters’ button to clear your filter selections.
