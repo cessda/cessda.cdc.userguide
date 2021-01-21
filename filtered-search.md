@@ -21,6 +21,15 @@ you get fewer but more relevant results.
 If you are interested only in data collected over, for instance, the last five years,
 use the date of collection filter.
 
+If you wish to find historical data, use the collection years filter.
+For example, for data on political issues in the post-war period,
+select first 1945-1955 as the collection years and enter e.g. *election political politics* in the search box.
+Another good option is to view the Topic filter **after** you have first selected the collection years.
+There you can choose topics like Elections, Political attitudes and behaviour, Politics,
+International politics and organisation.
+
+ If you want to find recent data, choose the latest  two-three years in the collection years filter.
+
 ![Filtered search](images/filtered-search.png "Filtered search")
 
 If you use more than one filter, the default between them is AND, so both have to apply in the results.
