@@ -19,8 +19,11 @@ Note: some service providers provide study descriptions only in English, regardl
 or both in English and in the local language.
 It is advised to always do a search in English as well as in the local language.
 
-A simple search ‘*environment*’ returns documents containing that term.
+A simple search ‘*discrimination*’ returns documents containing that term.
 Note that Elasticsearch applies synonyms and stemming in the search.
+Search terms are bolded in the results list. Clicking on ‘Read more’
+in the list opens up the full abstract for the study.
+
 If you use two search terms, for example, by entering ‘*equality pay*’ into the box,
 the default is AND, that is, both “equality” and “pay” should appear in the resulting documents.
 
