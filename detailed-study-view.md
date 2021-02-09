@@ -15,7 +15,7 @@ and a link to the study on the Publisher website for information on data access.
 
 Many organisations providing metadata for the catalogue use the
 same controlled vocabularies to describe the methodology used for the studies.
-The infotips  contain the names and links to these vocabularies.
+The infotips (highlighted here with a red circle) contain the names and links to these vocabularies.
 
 You can see topics and keywords by clicking these sections open.
 If you see a topic or keyword relevant to you (e.g. “Drinking behaviour”), click on it.
