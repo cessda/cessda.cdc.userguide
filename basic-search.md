@@ -20,7 +20,7 @@ or both in English and in the local language.
 It is advised to always do a search in English as well as in the local language.
 
 A simple search ‘*discrimination*’ returns documents containing that term.
-Note that Elasticsearch applies synonyms and stemming in the search.
+Note that Elasticsearch applies synonyms and stemming (on words in the titles) in the search.
 Search terms are bolded in the results list. Clicking on ‘Read more’
 in the list opens up the full abstract for the study.
 
