@@ -20,9 +20,11 @@ or both in English and in the local language.
 It is advised to always do a search in English as well as in the local language.
 
 A simple search ‘*discrimination*’ returns documents containing that term.
-Note that Elasticsearch applies synonyms and stemming (on words in the titles) in the search.
-Search terms are bolded in the results list. Clicking on ‘Read more’
-in the list opens up the full abstract for the study.
+Elasticsearch applies synonyms and stemming (but only on words in the titles) in the search.
+Note that you need to **use the asterisk (\*)** to get comprehensive results.
+For example, use ‘childmind\*’ to get both “childminding” and “childminders”.
+Search terms are bolded in the results list.
+Clicking on ‘Read more’ in the list opens up the full abstract for the study.
 
 If you use two search terms, for example, by entering ‘*equality pay*’ into the box,
 the default is AND, that is, both “equality” and “pay” should appear in the resulting documents.
