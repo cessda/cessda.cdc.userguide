@@ -11,16 +11,16 @@ nav_order: 040
 To support more complex searches, the CDC provides an Advanced Search option.
 A number of Boolean and other search operators are enabled.
 
-## AND operation
+## AND operation (+)
 
-If you enter ‘*funding AND education*’,
+If you enter ‘*funding + education*’,
 you get the same results as with the search ‘*funding education*’ since AND operation is the default in the system.
 Elasticsearch will first give you those where both terms (or their synonyms) appear and later on those where only one of them appears.
 
-## OR operation
+## OR operation (|)
 
 If you are happy to get results with any of the terms entered, e.g. ‘*sport*’ or ‘*exercise*’,
-search with: *sport OR exercise*.
+search with: *sport | exercise*.
 
 ## Phrase search
 
@@ -30,9 +30,9 @@ Only documents with this exact phrase come up. E.g.: “*covid-19*” or “*Ang
 
 ## Truncated search
 
- To search any ending of a root word, use "`*`" sign at the point where the spelling of the word could change.
- For example, *`nurs*`* will give you *nurse*, *nurses*, *nursing* etc whereas *`nurse*`* will not give *nursing*.
- Note: Elastic search will carry out some stemming in the search automatically but only on words in the titles.
+To search any ending of a root word, use "`*`" sign at the point where the spelling of the word could change.
+For example, *`nurs*`* will give you *nurse*, *nurses*, *nursing* etc whereas *`nurse*`* will not give *nursing*.
+Note: Elasticsearch will carry out some stemming in the search automatically but only on words in the titles.
 
 ## Parenthesis search
 
