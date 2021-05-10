@@ -20,15 +20,15 @@ at a point in time when total records in English = 20272
 
 ## AND search
 
-[`house AND garden`](https://datacatalogue.cessda.eu/?q=house%20AND%20garden) [47 results]
+[`house + garden`](https://datacatalogue.cessda.eu/?q=house%20%2B%20garden) [1947 results]
 
 which is equivalent to `house garden`, as searching for multiple terms uses AND by default.
 
 ## OR search
 
-[`house OR garden`](https://datacatalogue.cessda.eu/?q=house%20OR%20garden) [1709 results]
+[`house | garden`](https://datacatalogue.cessda.eu/?q=house%20OR%20garden) [1946 results]
 
-which of course is equivalent to `garden OR house`.
+which of course is equivalent to `garden | house`.
 
 ## Phrase search
 
@@ -46,11 +46,11 @@ which of course is equivalent to `garden OR house`.
 
 ## Parenthesis search
 
-[`(garden room) OR (garden house)`](<https://datacatalogue.cessda.eu/?q=%28garden%20room%29%20OR%20%28garden%20house%29>)
- [2073 results]
+[`(garden room) | (garden house)`](https://datacatalogue.cessda.eu/?q=%28garden%20room%29%20%7C%20%28garden%20house%29)
+ [2321 results]
 
-[`((garden room) OR (garden house) OR house)`](<https://datacatalogue.cessda.eu/?q=%28%28garden%20room%29%20OR%20%28garden%20house%29%20OR%20house%29>)
- [2076 results]
+[`((garden room) | (garden house) | house)`](https://datacatalogue.cessda.eu/?q=%28%28garden%20room%29%20%7C%20%28garden%20house%29%20%7C%20house%29)
+ [2325 results]
 
-[`((garden room) OR (garden house) OR social)`](<https://datacatalogue.cessda.eu/?q=%28%28garden%20room%29%20OR%20%28garden%20house%29%20OR%20social%29>)
-[12763 results]
+[`((garden room) | (garden house) | social)`](<https://datacatalogue.cessda.eu/?q=%28%28garden%20room%29%20OR%20%28garden%20house%29%20OR%20social%29>)
+[12757 results]
