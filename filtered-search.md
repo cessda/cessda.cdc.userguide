@@ -10,7 +10,7 @@ nav_order: 030
 
 The system allows filtering by topic, data collection year,
 country in which the study took place, and the institution providing the study metadata.
-These institutions are mainly research Data Archives.
+These institutions are mainly research data repositories.
 Note the limitations: the Country and Collection years filters include
 only those studies where the metadata includes the country
 and data information in standardised, machine-actionable format.
@@ -35,6 +35,9 @@ The selected collection years are immediately effective when you drag the years 
 but if you enter the years into the boxes you need to use the ‘Go’ button.
 Clicking on ‘Go’ resets the line to the original position,
 thus removing any selections you have made there.
+
+If you want data only from a particular repository or repositories, use the Publisher filter.
+If you want to exclude a Publisher, select all other publishers except the one(s) you want to exclude.
 
 ![Filtered search](images/filtered-search.png "Filtered search")
 
