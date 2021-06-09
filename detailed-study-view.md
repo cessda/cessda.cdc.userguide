@@ -8,10 +8,12 @@ nav_order: 050
 
 # {{ page.title }}
 
-Clicking on the name of study (highlighted in blue) in the results list produces more detailed information,
-such as creators of the data, abstract, methodology, topics and keywords,
-the persistent identifier to be used when citing the data,
-and a link to the study on the Publisher website for information on data access.
+Clicking on the study title (highlighted in blue) in the results list produces more detailed information,
+such as creators of the data, abstract, methodology, topics, keywords,
+the persistent identifier to be used when citing the data.
+There is also a link to the study on the Publisher website for information on access to actual data files.
+If the Publisher website shows that the data are available with one of the CC-BY licenses,
+there is more information on those licenses at [About CC Licenses](https://creativecommons.org/about/cclicenses/).
 
 Many organisations providing metadata for the catalogue use the
 same controlled vocabularies to describe the methodology used for the studies.

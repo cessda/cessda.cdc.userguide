@@ -7,7 +7,7 @@ nav_order: 000
 
 # CESSDA Data Catalogue User Guide
 
-This is the user guide for the [CESSDA Data Catalogue](https://datacatalogue.cessda.eu/).
+This is the user guide for version 2.4.0 of the [CESSDA Data Catalogue](https://datacatalogue.cessda.eu/).
 
 It presents an overview of how to use the CDC for searching, including basic search and applying filters as well as advanced search.
 The CDC is a portal for discovering data.
