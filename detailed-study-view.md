@@ -19,7 +19,7 @@ Many organisations providing metadata for the catalogue use the
 same controlled vocabularies to describe the methodology used for the studies.
 The infotips (highlighted here with a red circle) contain the names and links to these vocabularies.
 
-You can see topics and keywords by clicking these sections open.
+You can see topics and keywords towards the bottom of the page.
 If you see a topic or keyword relevant to you (e.g. “Drinking behaviour”), click on it.
 The system will carry out a search based on the term clicked.
 

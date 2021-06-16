@@ -38,6 +38,7 @@ thus removing any selections you have made there.
 
 If you want data only from a particular repository or repositories, use the Publisher filter.
 If you want to exclude a Publisher, select all other publishers except the one(s) you want to exclude.
+Another way is to use the NOT option (see [Advanced Search]({% link advanced-search.md %})).
 
 ![Filtered search](images/filtered-search.png "Filtered search")
 
@@ -47,7 +48,7 @@ Tip: choose Countries with a small number after the country name to get less noi
 
 ![Cross-national data search](images/cross-national-data-search.png "cross-national data search")
 
-If you use more than one filter, the default between them is AND, so both have to apply in the results.
+If you use more than one filter, the default between them is AND (+), so both have to apply in the results.
 
 To keep the selected filters active,
 use the ‘Back’ button or the arrow on top left to navigate back to the search page.

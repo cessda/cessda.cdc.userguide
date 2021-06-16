@@ -17,11 +17,12 @@ The search language options are provided next to the search box.
 If you want to browse study descriptions in German, for instance, choose German as the language.
 Note: some service providers provide study descriptions only in English, regardless of country,
 or both in English and in the local language.
-It is advised to always do a search in English as well as in the local language.
+Therefore, it is always good to do a search in English as well as in the local language.
+Please also note that the language of the actual data files may be different from the metadata language.
 
 A simple search ‘*discrimination*’ returns documents containing that term.
-Elasticsearch applies synonyms and stemming (but only on words in the titles) in the search.
-Note that you need to **use the asterisk (\*)** to get comprehensive results.
+Elasticsearch applies synonyms and stemming in the search.
+Note that you may need to **use the asterisk (\*)** to get comprehensive results.
 For example, use ‘childmind\*’ to get both “childminding” and “childminders”.
 Search terms are bolded in the results list.
 Clicking on ‘Read more’ in the list opens up the full abstract for the study.
@@ -37,5 +38,5 @@ see [Filtered Search]({% link filtered-search.md %}).
 
 You can change the number of results displayed on a page.
 Results can be sorted by relevance, title or the date of data collection.
-Note: If the study metadata did not contain the date in a standardised format,
+Note: If the study metadata did not contain the collection date in a standardised format,
 these studies come up last and are not sorted by date.

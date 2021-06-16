@@ -13,7 +13,7 @@ It presents an overview of how to use the CDC for searching, including basic sea
 The CDC is a portal for discovering data.
 Detailed descriptions of data collections are provided.
 For information and procedures to access data,
-there is a link in the lower right of each entry to the website of the data provider [“Access data”].
+there is a link [“Access data”] from each study to the study information on the website of the data provider (Publisher).
 The data described are varied. They may be quantitative, qualitative or mixed-modes data, cross-sectional
 or longitudinal, recently collected or historical data.
 
