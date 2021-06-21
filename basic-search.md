@@ -10,7 +10,7 @@ nav_order: 020
 
 Basic keyword search is provided in the search bar in the upper right.
 
-The number of results is presented in the upper left.
+The number of results is presented in the upper middle.
 Results can be sorted by relevance, title, and date of the data collection.
 
 The search language options are provided next to the search box.
@@ -20,10 +20,10 @@ or both in English and in the local language.
 Therefore, it is always good to do a search in English as well as in the local language.
 Please also note that the language of the actual data files may be different from the metadata language.
 
-A simple search ‘*discrimination*’ returns documents containing that term.
-Elasticsearch applies synonyms and stemming in the search.
-Note that you may need to **use the asterisk (\*)** to get comprehensive results.
-For example, use ‘childmind\*’ to get both “childminding” and “childminders”.
+Elasticsearch applies autocompletion in the search.
+A simple search ‘*discrimin*’ returns ‘*discrimination*’, '*discriminations*’, ‘*discriminatory*’.
+To test that you got all the the documents, you can use the asterisk (*) after the search term,
+e.g. ‘discrim\*’.
 Search terms are bolded in the results list.
 Clicking on ‘Read more’ in the list opens up the full abstract for the study.
 
