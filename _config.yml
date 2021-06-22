@@ -4,6 +4,7 @@ title: CESSDA Data Catalogue User Guide
 baseurl: /documentation/
 logo: CESSDA_CDC.png
 color_scheme: cessda
+serviceurl: /
 
 # Theme
 theme: jekyll-cessda-docs
