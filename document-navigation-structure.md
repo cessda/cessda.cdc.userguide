@@ -11,6 +11,7 @@ The indentation is intended to indicate major sections, subsections and sub-subs
 
 ```none
 (000) Home (index.md)
+  (010) Language (language.md)
   (020) Basic search (basic-search.md)
   (030) Filtered search (filtered-search.md)
   (040) Advanced search (advanced-search.md)
