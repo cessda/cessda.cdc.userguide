@@ -25,5 +25,9 @@ The system will carry out a search based on the term clicked.
 
 ![Detailed study view](images/detailed-study-view.png "Detailed study view")
 
+The ‘Access data’ button brings you to the study description page on the metadata publisher’s website.
+This is also a way to find national publishers’ catalogues which may provide more search opportunities,
+including variable level searching.
+
 You can also view the study description in JSON format.
 See [JSON view]({% link json-view.md %}) for details.
