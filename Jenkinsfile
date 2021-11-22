@@ -48,12 +48,6 @@ pipeline {
 				}
 			}
 		}
-		stage('Build Profiles') {
-			steps {
-                sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 1.2.2\\ PROFILE/cdc_122_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_122_profile.html'
-                sh 'docker run -v "$(pwd)":/src klakegg/saxon xslt -s:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/cdc25_profile.xml -xsl:cessda.metadata.profiles/CDC\\ 2.5\\ PROFILE/Resources/cdc_profile_Documenter.xsl -o:_site/cdc_25_profile.html'
-			}
-		}
 		stage('Build Nginx Container') {
 			steps {
 				sh "docker build -t ${imageTag} -f nginx.Dockerfile ."
