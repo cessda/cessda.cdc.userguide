@@ -42,13 +42,16 @@ Another way is to use the NOT option (see [Advanced Search]({% link advanced-sea
 
 ![Filtered search](images/filtered-search.png "Filtered search")
 
-To find cross-national data, choose four or five European countries from the Country filter
+To find cross-national data, choose three or more European countries from the Country filter
 and enter the relevant search term into the search box (or use the Topic filter).
 Tip: choose Countries with a small number after the country name to get less noise in the results.
 
 ![Cross-national data search](images/cross-national-data-search.png "cross-national data search")
 
-If you use more than one filter, the default between them is AND (+), so both have to apply in the results.
+If you use two or more filters, the default between them is AND (+),
+so all have to apply in the results.
+The default within a filter is OR, so if you select several countries, for instance,
+you will get studies where any of the selected countries is included.
 
 To keep the selected filters active,
 use the ‘Back’ button or the arrow on top left to navigate back to the search page.
