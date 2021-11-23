@@ -35,6 +35,8 @@ The 'Clear search' button clears only the text in the search box.
 It does not clear any existing filters applied in the left column,
 see [Filtered Search]({% link filtered-search.md %}).
 
+Users can change the number of results displayed on a page.
+Results can be sorted by relevance, title or the date of data collection.
 Users can also sort the results by latest (newest) published.
 This allows them to keep track of what has been published on their subject of interest
 since they last executed the search.
