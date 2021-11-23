@@ -4,7 +4,6 @@
 
 Name                 | Email                                             | Contribution
 :---                 | :---                                              | :---
-Elizabeth Lea Bishop | ElizabethLea DOT Bishop AT gesis DOT org          | documentation
-Ashley Fox           | contracting AT foxonlinesolutions DOT co DOT uk   | documentation
+Taina Jääskeläinen   | taina DOT jaaskelainen AT tuni DOT fi             | author of User Guide text
+John Shepherdson     | john DOT shepherdson AT cessda DOT eu             | transformation of User Guide text to docs-as-code
 Carsten Thiel        | carsten DOT thiel AT cessda DOT eu                | code documentation
-John Shepherdson     | john DOT shepherdson AT cessda DOT eu             | projectManagement
