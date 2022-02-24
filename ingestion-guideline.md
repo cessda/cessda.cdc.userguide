@@ -59,7 +59,7 @@ It may also enable harvester functionality, but that is not a requirement for CD
 Once the chosen tool has been installed and configured as an OAI-PMH repository,
 it can be validated using a free to use service such as [OVAL BASE](http://oval.base-search.net).
 
-### 2. Add study level metadata files to the repository’s document store
+### 2. Add study level metadata files to the repository's document store
 
 The CESSDA Data Catalogue can only harvest XML in either DDI 1.2.2 or DDI 2.5 format.
 In either case, the DDI XML files should be compliant with the [CESSDA Metadata Model v1.0](https://zenodo.org/record/3543756).
