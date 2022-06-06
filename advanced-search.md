@@ -39,7 +39,7 @@ Only documents with this exact phrase come up. E.g.: `covid-19` or `Angela Merke
 
 ## Truncated search
 
-To search any ending of a root word, use "`*`" sign at the point where the spelling of the word could change.
+To search any ending of a root word, use the "`*`" sign at the point where the spelling of the word could change.
 For example, `nurs*` will give you `nurse`, `nurses`, `nursing` etc whereas `nurse*` will not give `nursing`.
 Note: Elasticsearch will carry out some stemming in the search automatically.
 

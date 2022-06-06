@@ -11,7 +11,7 @@ nav_order: 020
 Basic keyword search is provided in the search bar in the upper right.
 
 The number of results is presented in the upper middle.
-Results can be sorted by relevance, title, and date of the data collection.
+Results can be sorted by relevance, title, the date of data collection or the publication date of dataset description.
 
 The search language options are provided next to the search box.
 If you want to browse study descriptions in German, for instance, choose German as the language.
@@ -26,8 +26,9 @@ e.g. `discrim*`.
 Search terms are bolded in the results list.
 Clicking on ‘Read more’ in the list opens up the full abstract for the study.
 
-If you use two search terms, for example, by entering `equality pay` into the box,
-the default is AND, that is, both “equality” and “pay” should appear in the resulting documents.
+If you use two or more search terms, for example, by entering `equality pay` into the box,
+the default between the terms is AND.
+This means that datasets where both "equality" and "pay" appear in documentation come up on top in the results.
 
 ![Basic search](images/basic-search.png "Basic search")
 
