@@ -18,5 +18,6 @@ The indentation is intended to indicate major sections, subsections and sub-subs
    (045) Advanced search examples (advanced-search-examples.md)
   (050) Detailed study view (detailed-study-view.md)
     (055) View JSON (json-view.md)
+  (060) Add new endpoint (new-endpoint.md)
   (070) Send feedback (send-feedback.md)
 ```

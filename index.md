@@ -9,7 +9,7 @@ nav_order: 000
 
 This is the user guide for version 3.0.0 of the [CESSDA Data Catalogue](https://datacatalogue.cessda.eu/).
 
-It contains descriptions (metadata) of the more than 40,000 data collections held by CESSDA’s Service Providers (SPs).
+It contains descriptions of the more than 40,000 data collections held by CESSDA’s Service Providers (SPs).
 Datasets come from over 20 European countries. It is a one-stop shop for searching and finding European social science data.
 The data described may be quantitative, qualitative or mixed-modes data, cross-sectional or longitudinal,
 recently collected or historical data.
