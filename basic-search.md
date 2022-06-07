@@ -11,7 +11,7 @@ nav_order: 020
 Basic keyword search is provided in the search bar in the upper right.
 
 The number of results is presented in the upper middle.
-Results can be sorted by relevance, title, the date of data collection or the publication date of dataset description.
+Results can be sorted by relevance, title, the date of data collection or the publication date of the dataset description.
 
 The search language options are provided next to the search box.
 If you want to browse study descriptions in German, for instance, choose German as the language.

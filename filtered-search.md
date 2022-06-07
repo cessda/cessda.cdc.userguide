@@ -18,9 +18,10 @@ and data information in standardised, machine-actionable format.
 Using filters **increases the precision** of the search.
 Let’s imagine you are looking for data on the travel behaviour and travel  attitudes of Norwegians:
 
-1. Enter the relevant term into the search box, e.g.: `travel norway`.
+1. Enter the relevant terms into the search box, e.g.: `travel norway`.
   You get a lot of results, some relevant, some not so relevant.
-1. To get more relevant results, enter into the search box the word travel and choose Norway from the country filter on the left.
+1. To get more relevant results, enter into the search box the word `travel`
+  and choose Norway from the country filter on the left.
   Now you get fewer but more relevant results.
 1. If you are interested only in data collected over the last five years, use search 2) and in addition,
   use the collection years filter and select the relevant years.
@@ -50,11 +51,11 @@ Another way is to use the NOT option (see [Advanced Search]({% link advanced-sea
 
 ![Filtered search](images/filtered-search.png "Filtered search")
 
-The easiest way to find cross-national data is to wean out one-country data by selecting three or more countries in the Country filter.
+The easiest way to find **cross-national data** is to wean out one-country data by selecting three or more countries in the Country filter.
 Let’s imagine you are looking for cross-national International Social Survey Programme (ISSP) data on social networks.
 
 1. Choose three or four European countries from the country filter and after this,
-  enter the name of the survey and social networks or other relevant search term into the search box.
+  enter the name of the survey (ISPP) and `work orientations` or other relevant search term into the search box.
   This way you are much more likely to get  the cross-national,
   combined ISSP data rather than  ISSP survey data from a particular country on top of the results.
 1. Another option would be to choose the European countries from the country filter,
