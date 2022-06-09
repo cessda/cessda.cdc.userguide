@@ -1,5 +1,5 @@
 ---
-title: Adding a new endpoint
+title: Providing metadata to the CDC
 parent: Home
 has_children: false
 is_hidden: false
@@ -32,7 +32,7 @@ and is expected to be harvested by some European aggregators (such as OpenAIRE a
 
 A Basecamp space [OAI-PMH Endpoints](https://3.basecamp.com/3584575/projects/20060866) has been set up
 for the  dissemination of knowledge about the installation, configuration and use of Dataverse,
-Kuha2 and other OAI-PMH applications. Access is restricted to staff of CESSDa Service Providers.
+Kuha2 and other OAI-PMH applications. Access is restricted to staff of CESSDA Service Providers.
 
 ## At a glance
 
