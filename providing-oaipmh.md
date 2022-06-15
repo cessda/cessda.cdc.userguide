@@ -1,0 +1,43 @@
+---
+title: Providing metadata
+parent: Machine access
+grand_parent: Home
+has_children: false
+is_hidden: false
+nav_order: 060
+---
+
+# {{ page.title }}
+
+CESSDA metadata is exchanged using [DDI Codebook](https://ddialliance.org/Specification/DDI-Codebook/2.5/) and exchanged using [OAI-PMH](https://www.openarchives.org/pmh/).
+
+The metadata is expected to be compliant with the [CESSDA Metadata Model v1.0](https://zenodo.org/record/3543756).
+Specifically, the [CESSDA Metadata Profiles](https://cmv.cessda.eu/documentation/profiles.html) must be adopted.
+
+DDI XML file format compliance with CMM can be checked using the [CESSDA Metadata Validator](https://cmv.cessda.eu).
+
+## Compliance
+
+Data Providers must provide an endpoint supporting
+
+- CESSDA compliant metadata in DDI
+- regular updates of the metadata provided
+- persistence of identifers and endpoint identifier (see [CESSDA Identifers](https://docs.tech.cessda.eu/metadata/identifers.html))
+- deletion of records marked as updates
+- provenance records for any records not originating, i.e. aggregated from other sources
+
+## Submitting endpoints to CESSDA
+
+CESSDA Service Providers can contact Main Office to connect their expert with the CESSDA Platform Team.
+
+Required information are
+
+- URL of the OAI-PMH endpoint (e.g. `https://xxx.xxx.xxx/oai-pmh`)
+- Metadata prefix (e.g. `oai_ddi25`)
+- Set specification, if relevant (e.g. `subject:social-sciences`)
+- Name and email address of the person responsible for the endpoint.
+
+## Further reading
+
+Documentation and recommendations for setting up an OAI-PMH endpiont can be found in the [CESSDA Technical Guidelines](https://docs.tech.cessda.eu/metadata/oai-guidelines.html).
+
