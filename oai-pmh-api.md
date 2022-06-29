@@ -9,13 +9,13 @@ nav_order: 072
 
 # {{ page.title }}
 
-
 ## OAI-PMH endpoint description
 
 The [OAI-PMH compliant](https://www.openarchives.org/pmh/) endpoint is located at
 [https://datacatalogue.cessda.eu/oai-pmh/v0/oai](https://datacatalogue.cessda.eu/oai-pmh/v0/oai).
 
 Metadata is provided in the formats
+
 - DublinCore -- `oai_dc`
 - DataCite -- `oai_datacite`
 - DDI 2.5 Codebook -- `oai_ddi25`
