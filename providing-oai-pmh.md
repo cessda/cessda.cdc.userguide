@@ -4,12 +4,12 @@ parent: Machine access
 grand_parent: Home
 has_children: false
 is_hidden: false
-nav_order: 060
+nav_order: 071
 ---
 
 # {{ page.title }}
 
-CESSDA metadata is exchanged using [DDI Codebook](https://ddialliance.org/Specification/DDI-Codebook/2.5/) and exchanged using [OAI-PMH](https://www.openarchives.org/pmh/).
+CESSDA DC metadata is based on [DDI Codebook](https://ddialliance.org/Specification/DDI-Codebook/2.5/) and exchanged using [OAI-PMH](https://www.openarchives.org/pmh/).
 
 The metadata is expected to be compliant with the [CESSDA Metadata Model v1.0](https://zenodo.org/record/3543756).
 Specifically, the [CESSDA Metadata Profiles](https://cmv.cessda.eu/documentation/profiles.html) must be adopted.
@@ -22,7 +22,7 @@ Data Providers must provide an endpoint supporting
 
 - CESSDA compliant metadata in DDI
 - regular updates of the metadata provided
-- persistence of identifers and endpoint identifier (see [CESSDA Identifers](https://docs.tech.cessda.eu/metadata/identifers.html))
+- persistence of identifers and endpoint identifier (see [CESSDA Identifers](https://docs.tech.cessda.eu/metadata/oai-pmh-identifers.html))
 - deletion of records marked as updates
 - provenance records for any records not originating, i.e. aggregated from other sources
 
@@ -39,5 +39,5 @@ Required information are
 
 ## Further reading
 
-Documentation and recommendations for setting up an OAI-PMH endpiont can be found in the [CESSDA Technical Guidelines](https://docs.tech.cessda.eu/metadata/oai-guidelines.html).
+Documentation and recommendations for setting up an OAI-PMH endpiont can be found in the [CESSDA Technical Guidelines](https://docs.tech.cessda.eu/metadata/oai-pmh-provider-guidelines.html).
 
