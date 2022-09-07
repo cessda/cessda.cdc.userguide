@@ -21,10 +21,10 @@ DDI XML file format compliance with CMM can be checked using the [CESSDA Metadat
 Data Providers must provide an endpoint supporting
 
 - CESSDA compliant metadata in DDI
-- regular updates of the metadata provided
-- persistence of identifers and endpoint identifier (see [CESSDA Identifers](https://docs.tech.cessda.eu/metadata/oai-pmh-identifers.html))
-- deletion of records marked as updates
-- provenance records for any records not originating, i.e. aggregated from other sources
+- Regular updates of the metadata provided
+- Persistence of identifiers and endpoint identifier (see [CESSDA Identifers](https://docs.tech.cessda.eu/metadata/oai-pmh-identifiers.html))
+- Deletion of records marked as updates
+- Provenance records for any records not originating, i.e. aggregated from other sources
 
 ## Submitting endpoints to CESSDA
 
