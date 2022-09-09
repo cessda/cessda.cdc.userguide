@@ -42,9 +42,9 @@ pipeline {
 				}
 				stage('Build Deployable Documentation') {
 					steps {
+						catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
 						sh "jekyll build"
 						sh "bundle exec rake htmlproofer"
-						catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
                     	sh "exit 1"
                 }
 					}
