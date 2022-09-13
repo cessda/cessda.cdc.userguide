@@ -1,12 +1,10 @@
 ---
-
--title: Providing metadata
--parent: Machine access
--grand_parent: Home
--has_children: false
--is_hidden: false
--nav_order: 071
-
+title: Providing metadata
+parent: Machine access
+grand_parent: Home
+has_children: false
+is_hidden: false
+nav_order: 071
 ---
 
 # {{ page.title }}
