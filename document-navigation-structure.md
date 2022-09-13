@@ -19,7 +19,7 @@ The indentation is intended to indicate major sections, subsections and sub-subs
   (050) Detailed study view (detailed-study-view.md)
     (055) View JSON (json-view.md)
   (070) Machine access (machines.md)
-    (071) CESSDA OAI-PMH Identifiers Specification (oai-pmh-identifiers.md)
+    (071) Providing metadata (providing-oai-pmh.md)
     (072) OAI-PMH endpoint (oai-pmh-api.md)
     (073) REST API (rest-api.md)
   (090) Send feedback (send-feedback.md)
