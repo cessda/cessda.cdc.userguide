@@ -19,6 +19,5 @@ Whatever it is you want to say, we will want to hear it.
 
 ![Send feedback form](images/send-feedback-form.png "Send feedback form")
 
-Give a short summary and describe your issue, choose whether it is a bug,
-improvement or new feature in the ‘Components’ field, enter your details and submit.
+Give a short summary and describe your issue, enter your details and submit.
 We will get back to you.
