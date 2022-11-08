@@ -40,4 +40,3 @@ The endpoint provides sets specific to languages, the list is available from
 ## Documentation
 
 The endpoint is powered by [Kuha2](https://kuha2.readthedocs.io/en/latest/oai_pmh_repo_handler.html).
-
