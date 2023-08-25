@@ -13,5 +13,5 @@
 FROM ruby:3.2.2
 
 # Install Gem dependencies
-COPY Gemfile ./
+COPY Gemfile* ./
 RUN bundler install
