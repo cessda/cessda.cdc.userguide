@@ -35,7 +35,7 @@ pipeline {
 				}
 			}
 			stages {
-				stage('Lint Documentation') {
+				stage('Lint Markdown') {
 					steps {
 						sh "bundle exec rake lint"
 					}
@@ -43,6 +43,10 @@ pipeline {
 				stage('Build Deployable Documentation') {
 					steps {
 						sh 'jekyll build'
+					}
+				}
+				stage('Proof HTML') {
+					steps {
 						sh 'bundle exec rake htmlproofer'
 					}
 				}

@@ -23,7 +23,7 @@ Data Providers must provide an endpoint supporting
 CESSDA compliant metadata in DDI
 
 - Regular updates of the metadata provided
-- Persistence of identifiers and endpoint identifier (see [CESSDA Identifiers](https://docs.tech.cessda.eu/metadata/oai-pmh-identifiers.html))
+- Persistence of identifiers and endpoint identifier (see [CESSDA Identifiers]({% link oai-pmh-identifiers.md %}))
 - Deletion of records marked as updates
 - Provenance records for any records not originating, i.e. aggregated from other sources
 
