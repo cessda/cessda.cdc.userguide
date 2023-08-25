@@ -43,11 +43,6 @@ pipeline {
 				stage('Build Deployable Documentation') {
 					steps {
 						sh 'jekyll build'
-
-						// Copy index.html so links to / resolve
-						sh 'cp _site/documentation/index.html _site/'
-
-						// Proof the HTML
 						sh 'bundle exec rake htmlproofer'
 					}
 				}
