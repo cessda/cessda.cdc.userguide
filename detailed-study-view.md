@@ -12,7 +12,7 @@ Clicking on a study title (highlighted in blue) within the results list will tak
 with more detailed information about the study.
 This information includes creators of the data, abstract, methodology, topics and keywords,
 and the persistent identifier to be used when citing the data.
-Additionally, you will find a link to the study on the Publisher’s website where for information on access to
+Additionally, you will find a link to the study on the Publisher’s website where information on access to
 the actual data files can be found.
 If the Publisher’s website shows that the data are available with one of the CC-BY licences,
 further information on those licences can be found at
