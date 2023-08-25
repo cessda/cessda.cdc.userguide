@@ -35,18 +35,19 @@ pipeline {
 				}
 			}
 			stages {
-				stage('Lint Documentation') {
+				stage('Lint Markdown') {
 					steps {
 						sh "bundle exec rake lint"
 					}
 				}
 				stage('Build Deployable Documentation') {
 					steps {
-						catchError(buildResult: 'SUCCESS', stageResult: 'FAILURE') {
-						sh "jekyll build"
-						sh "bundle exec rake htmlproofer"
-                    	sh "exit 1"
-                }
+						sh 'jekyll build'
+					}
+				}
+				stage('Proof HTML') {
+					steps {
+						sh 'bundle exec rake htmlproofer'
 					}
 				}
 			}
