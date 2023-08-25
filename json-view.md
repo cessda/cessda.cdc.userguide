@@ -9,10 +9,10 @@ nav_order: 055
 
 # {{ page.title }}
 
-You can also view the study description in JSON format, by clicking on 'View JSON'.
-How it appears depends on the browser you are using.
-Currently only Firefox displays JSON in structured format natively.
-For other browsers, you need to install a JSON formatter extension if you do not want to see unformatted JSON.
+You can view the study description in JSON format, by clicking on 'View JSON'.
+ The appearance of the JSON content may vary based on the browser you are using.
+Currently only Firefox displays JSON in structured format by default.
+For other browsers, you need to install a JSON formatter extension to avoid seeing unformatted JSON.
 
 This is the JSON view in Safari, without a JSON formatting extension.
 
