@@ -9,7 +9,8 @@ nav_order: 090
 # {{ page.title }}
 
 If you encounter any problems with the service, you can report them by clicking on the ‘Send feedback’
-button at bottom right and filling in the online form.
+button located at the bottom right.
+Just complete the online form to provide your feedback.
 
 ![Send feedback tab](images/send-feedback-tab.png "Send feedback tab")
 
@@ -19,5 +20,5 @@ Whatever it is you want to say, we will want to hear it.
 
 ![Send feedback form](images/send-feedback-form.png "Send feedback form")
 
-Give a short summary and describe your issue, enter your details and submit.
-We will get back to you.
+In the feedback form, please enter your name, email, subject and give a short summary or description of
+your issue. Submit your issue by clicking on the ‘Submit’ button and we will get back to you.
