@@ -1,6 +1,6 @@
 ---
 title: Language
-parent: Home
+parent: CESSDA Data Catalogue User Guide
 has_children: false
 is_hidden: false
 nav_order: 010
