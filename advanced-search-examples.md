@@ -10,7 +10,7 @@ nav_order: 045
 # {{ page.title }}
 
 All examples were run against the [CESSDA Data Catalogue](https://datacatalogue.cessda.eu)
-at a point in time when total records in English = 27968.
+at a point in time when there were 27,968 English records present in the catalogue.
 
 ## Simple search
 
