@@ -1,7 +1,7 @@
 ---
 title: Providing metadata
 parent: Machine access
-grand_parent: Home
+grand_parent: CESSDA Data Catalogue User Guide
 has_children: false
 is_hidden: false
 nav_order: 071

@@ -2,7 +2,7 @@
 title: Advanced search examples
 parent: Advanced search
 has_children: false
-grand_parent: Home
+grand_parent: CESSDA Data Catalogue User Guide
 is_hidden: false
 nav_order: 045
 ---

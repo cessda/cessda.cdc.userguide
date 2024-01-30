@@ -1,6 +1,6 @@
 ---
 title: Advanced search
-parent: Home
+parent: CESSDA Data Catalogue User Guide
 has_children: true
 is_hidden: false
 nav_order: 040
@@ -8,7 +8,7 @@ nav_order: 040
 
 # {{ page.title }}
 
-To support more complex searches, the Cessda Data Catalogue provides an Advanced Search option
+To support more complex searches, the CESSDA Data Catalogue provides an Advanced Search option
 that includes a variety of Boolean and other search operators for enhanced searching capabilities.
 
 ## AND operation

@@ -10,7 +10,7 @@ The numbers in parenthesis refer to the nav_order value which is set in the head
 The indentation is intended to indicate major sections, subsections and sub-subsections.
 
 ```none
-(000) Home (index.md)
+(000) CESSDA Data Catalogue User Guide (index.md)
   (010) Language (language.md)
   (020) Basic search (basic-search.md)
   (030) Filtered search (filtered-search.md)

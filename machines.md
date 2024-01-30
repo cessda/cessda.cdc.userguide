@@ -1,6 +1,6 @@
 ---
 title: Machine access
-parent: Home
+parent: CESSDA Data Catalogue User Guide
 has_children: true
 is_hidden: false
 nav_order: 070
