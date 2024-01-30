@@ -24,7 +24,11 @@ The infotips (highlighted here with a red circle in the image below)
 contain the names and links to these vocabularies.
 
 Below the abstract section, you will find topics and keywords.
-If you see a topic relevant to you (e.g. “General health and well-being”), you can click on it. This will initiate a search using this topic in the topic filter. If you see a keyword that is relevant to you (e.g. “Health status”) you can click the keyword to initiate a search using this keyword in the keyword filter. Or you can click on “ELSST” to view the keyword in the European Language Social Science Thesaurus to read more information about the keyword and find related keywords.
+If you see a topic relevant to you (e.g. “General health and well-being”), you can click on it.
+This will initiate a search using this topic in the topic filter.
+If you see a keyword that is relevant to you (e.g. “Health status”) you can click the keyword to initiate a search using this keyword
+in the keyword filter. Or you can click on “ELSST” to view the keyword in the European Language Social Science Thesaurus to read more
+information about the keyword and find related keywords.
 
 ![Detailed study view](images/detailed-study-view.png "Detailed study view")
 
