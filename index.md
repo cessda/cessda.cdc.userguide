@@ -7,7 +7,7 @@ nav_order: 000
 
 # {{ page.title }}
 
-This is the User Guide for version 3.7.0 of the CESSDA Data Catalogue.
+This is the User Guide for version 3.8.0 of the CESSDA Data Catalogue.
 
 The CESSDA Data Catalogue contains descriptions (metadata) of the more than 40,000 data collections
 held by CESSDA’s Service Providers (SPs).

@@ -9,7 +9,7 @@ nav_order: 071
 
 # {{ page.title }}
 
-CESSDA DC metadata is based on [DDI Codebook](https://ddialliance.org/Specification/DDI-Codebook/2.5/) and exchanged using [OAI-PMH](https://www.openarchives.org/pmh/).
+CESSDA DC metadata is based on [DDI Codebook](https://ddialliance.org/ddi-codebook) and [DDI Lifecycle](https://ddialliance.org/ddi-lifecycle) and is harvested using [OAI-PMH](https://www.openarchives.org/pmh/).
 
 The metadata is expected to be compliant with the [CESSDA Metadata Model v1.0](https://zenodo.org/record/3543756).
 Specifically, the [CESSDA Metadata Profiles](https://cmv.cessda.eu/documentation/profiles.html) must be adopted.

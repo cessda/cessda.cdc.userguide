@@ -55,7 +55,7 @@ This is the JSON view in Safari, with a JSON formatting extension.
 
 ## Installing a JSON formatting extension
 
-For Chrome, see the [Install and manage extensions](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
+For Chrome, see the [Install and manage extensions](https://support.google.com/chrome_webstore/answer/2664769)
 help page. 'JSON Viewer' is one of the available extensions for Chrome.
 
 For Safari, see the [How to install Safari extensions on your Mac](https://support.apple.com/en-us/HT203051)
