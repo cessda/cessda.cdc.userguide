@@ -24,7 +24,7 @@ Metadata is provided in the formats
 
 The endpoint offers common OAI-PMH functionality:
 
-- Selective harvesting with Sets & Datestamps
+- Selective harvesting with Sets & Date stamps
 - List request sequence with ResumptionTokens
 - OAI-Identifiers
 - Deleted records
