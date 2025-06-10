@@ -71,7 +71,7 @@ For example, for data on political issues in the post-war period:
 
 1. Select first 1945-1955 as collection years in the filter and then enter relevant search terms like
   `election political politics` in the search box.
-1. Another good option to find such data is to first select the collection years in the filter as in 1)
+2. Another good option to find such data is to first select the collection years in the filter as in 1)
   and next browse the Topic filter.
   In the topic filter, you will find relevant topics like `Elections`, `Political attitudes and behaviour`, `Politics`,
   `International politics and organisations` etc. which you can then select to be included in your search.
