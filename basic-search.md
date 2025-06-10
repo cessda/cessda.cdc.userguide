@@ -14,7 +14,7 @@ Elasticsearch applies autocompletion in the search.
 For example, a search for `discrimin` will give results like "discrimination", "discriminations", "discriminatory".
 To ensure comprehensive results, you can use an asterisk (*) after the search term,
 e.g. `discrim*`.
-Search terms are bolded in the results list.
+Search terms are highlighted in the results list.
 Clicking on ‘Read more’ in the list allows you to access the full abstract for a particular study.
 
 If you input two or more search terms, for example, entering `equality pay` into the search box,
