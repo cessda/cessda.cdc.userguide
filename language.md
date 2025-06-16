@@ -14,6 +14,8 @@ The metadata (study descriptions) are in the language as originally provided by 
 the Publishers. Some Publishers provide most study descriptions both in English and in the local language, some only in either English
 or in the local language.
 
+![Search Result](images/search-result-item.png "Search Result")
+
 The results list shows which languages a particular study is available in. Users can change the metadata language by clicking on the
 language tab below the abstract in the list. In the detailed study view, users can switch between the study description languages by
 choosing another language from the dropdown list next to the search box. If the study description is not available in the language
