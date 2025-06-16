@@ -31,6 +31,7 @@ in the keyword filter. Or you can click on “ELSST” to view the keyword in th
 information about the keyword and find related keywords.
 
 ![Detailed study view](images/detailed-study-view.png "Detailed study view")
+![Detailed study view](images/detailed-study-view-2.png "Detailed study view")
 
 The ‘Access data’ button, found on top of the detailed study view page, brings you to the study description page on
 the metadata publisher’s website.

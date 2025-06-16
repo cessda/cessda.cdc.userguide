@@ -107,4 +107,5 @@ To keep the selected filters active,
 use the ‘Back’ button or the arrow on your browser to navigate back to the search page from the detailed study view.
 If you click on the data catalogue logo instead, all selections will disappear.
 
-Use the ‘Reset filters’ button to clear your filter selections.
+To view all your selections in the different filters, click on the ‘Summary’ button.
+Use the ‘Reset’ button to clear your filter selections.
