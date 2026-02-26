@@ -42,7 +42,7 @@ pipeline {
 				}
 			}
 			steps {
-				sh 'jekyll build'
+				sh 'bundle exec jekyll build'
 			}
 		}
 		stage('Proof HTML') {
