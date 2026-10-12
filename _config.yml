@@ -6,6 +6,8 @@ logo: CESSDA_CDC.png
 color_scheme: cessda
 serviceurl: /
 destination: ./_site/documentation
+matomo_host: 'https://analytics.cessda.eu/'
+matomo_siteid: '2'
 
 # Theme
 theme: jekyll-cessda-docs
